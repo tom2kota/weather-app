@@ -14,7 +14,7 @@ function searchWeather() {
     }
     ELEMENTS.ELEMENT_LOADING_TEXT.style.display = 'block';
     ELEMENTS.ELEMENT_WEATHER_BOX.style.display = 'none';
-    const URL = 'http://api.openweathermap.org/data/2.5/weather?q=' + CITY_NAME + '&units=metric&appid=' + APP_ID;
+    const URL = 'https://api.openweathermap.org/data/2.5/weather?q=' + CITY_NAME + '&units=metric&appid=' + APP_ID;
     Http.fetchData(URL)
         .then(responseData => {
             const WEATHER_DATA = new WeatherData(CITY_NAME, responseData.weather[0].description.toUpperCase());
