@@ -3,7 +3,7 @@ import {Http} from 'http.js';
 import {WeatherData, WEATHER_PROXY_HANDLER} from 'weather-data.js';
 
 // https://home.openweathermap.org/api_keys
-const APP_ID = '39abfd6ed55b4e52a6de04ae6c0b1296';
+const APP_ID = '82b94d7003bc446d1ed900e8dd864163';
 
 ELEMENTS.ELEMENT_SEARCH_BUTTON.addEventListener('click', searchWeather);
 
