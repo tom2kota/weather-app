@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Now - JS App</title>
+</head>
+<body>
+<div>
+    <h1>Weather NOW!</h1>
+    <div class="input-field">
+        <div id="weatherSearch">
+            <label for="weatherCountry">Enter your city</label>
+            <input id="weatherCountry" autocomplete="off" type="text">
+            <button id="weatherSearchButton" type="button">Search</button>
+        </div>
+    </div>
+    <div class="output-field">
+        <h2>Your country</h2>
+        <p>output data:</p>
+        <ul>
+            <li id="countryName">&#9918;</li>
+            <li id="countryTemperature">&#9918;</li>
+            <li id="countryWeather">&#9918;</li>
+        </ul>
+    </div>
+    <div class="error-field">
+        <h3 id="countryError"></h3>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
